@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+}
+.flexparent {
+	display: flex;
+}
+.flexparent div { 
+	background-color: floralwhite; 
+	border: 5px darkgrey solid;
+	margin:15px;
+	padding: 16px;
+}
+.flexparent > div  { 
+background-color: lightpink; 
+}
+
+.flexparent div p:first-child {
+	text-decoration: underline;
+	font-size: 20px;
+	
+} 
+
+.flexparent img { 
+width: 200px; }
+
+.flexparent2 div { 
+	Border: 5px darkgrey solid;
+	margin:15px;
+	padding: 16px;
+}
+
+.flexparent2 > div { 
+background-color: floralwhite; }
+
+.flexparent div > div > div > div  {
+	background-color: lightpink;
+
+}
+.flexparent2 div > div  {
+	background-color: lightpink;
+}
+a, a:visited, a:active { 
+text-decoration: none; 
+font-style: hotpink;
+font-weight: 500;
+} 
+a:hover {
+	font-weight: 700;
+}
